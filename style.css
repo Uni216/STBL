@@ -7,19 +7,16 @@ body {
 
 .profile {
     width: 175px;
-    margin-bottom: 50px;
+ 
     border-radius: 50%;
 }
 
 #welcome {
     position: absolute;
-    overflow: hidden;
-    height: 800px;
+    
+     bottom: 0;
     color:#246663;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
+  height: 100%;
     opacity: 0.83;
     background: linear-gradient(#a6e3d7 0%, #f6e1fc 100%);
     display: table;
@@ -78,33 +75,61 @@ p {
 .menu{
     list-style: none;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+  
     z-index: 11;
     cursor: pointer;
-    
+    margin-top: 0px;
+    width: 100%;
+    background-color: bisque;
 }
 .links{
-    float: left;
+  display: inline;
     color: darkturquoise;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+   font-size:20px;
+    
+    padding-left: 33px;
+    padding-right: 25px;
+    
         font-family: 'Racing Sans One', cursive;
     
 }
 .links:hover{
     background-color:#191259;
+    font-size: 25px;
+    text-decoration: underline;
 }
 html{
     scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
+    color: firebrick;
+    text-shadow: 3px 3px lightpink;
     
 }
 .article:hover{
     color:crimson;
     
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color:blueviolet !important;
+    
+    
+}
+#contact{
+    background-color:aliceblue;
+    
+}
+#contact iframe{
+    width: 100%;
+}
+.my_contact h3{
+    display: inline;
+}
+my_contact a{
+    color: dodgerblue;
+    text-shadow: none;
 }
